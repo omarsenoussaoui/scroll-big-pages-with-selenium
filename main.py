@@ -1,7 +1,7 @@
-from selenium import webdriver
-import time
-driver=webdriver.Chrome()
-driver.get('https://www.instagram.com/sale_sucre_mascara29/')
+from selenium import webdriver #import selenium and webdriver 
+import time 
+driver=webdriver.Chrome() #use google chrome 
+driver.get('#url page')
 lenOfPage = driver.execute_script("window.scrollTo(0, document.body.scrollHeight);"
                                   "var lenOfPage=document.body.scrollHeight;"
                                   "return lenOfPage;")
